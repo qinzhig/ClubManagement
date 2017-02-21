@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBooking1"
+        android:layout_weight="0.03"
+        android:textSize="18sp"
+        android:paddingLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_member"
+        android:layout_weight="0.03"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:text="Facility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBooking2"
+        android:layout_weight="0.03"
+        tools:text="Facility"
+        android:textSize="18sp"
+        android:paddingLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_facility"
+        android:layout_weight="0.03"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_select_date"
+            android:text="Date"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_select_strt_time"
+            android:text="Start Time"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_select_end_time"
+            android:text="End Time"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp" >
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:ems="10"
+                    android:id="@+id/et_select_date"
+                    android:text="31 Jan 2017"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:id="@+id/et_select_strt_time"
+                    android:text="05:39 AM"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="time"
+                    android:ems="10"
+                    android:id="@+id/et_select_end_time"
+                    android:text="06:39 AM"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+    </LinearLayout>
+
+    <Button
+        android:text="Save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save"
+        android:layout_marginTop="100dp" />
+
+
+</LinearLayout>
+

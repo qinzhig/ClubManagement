@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ClubManagement</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_successful">Save Successful</string>
+    <string name="first_name_validation_msg">Invalidate First Name!</string>
+    <string name="second_name_validation_msg">Invalidate Second Name!</string>
+    <string name="sur_name_validation_msg">Invalidate Surname!</string>
+    <string name="generic_error">Incorrect Date selected</string>
+    <string name="mem_select_validation_msg">Invalidate Member selected!</string>
+    <string name="fac_select_validation_msg">Invalidate Facility selected!</string>
+    <string name="date_validation_msg">Date invalidate,please enter a date today or in the future!</string>
+    <string name="time_validation_msg">Start Time invalidate,please enter a time in the future!</string>
+    <string name="st_time_et_time_validation_msg">Incorrect StartTime and Endtime entered,please make sure endtime is newer than start time!</string>
+    <string name="title_add_member">Add Member</string>
+    <string name="title_add_booking">Add Booking</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

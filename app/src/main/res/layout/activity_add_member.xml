@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="First Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_weight="0.03"
+        android:textSize="18sp"
+        android:paddingLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_first_name"
+        android:hint="First Name"
+        android:textSize="22sp"
+        android:paddingLeft="@dimen/fab_margin" />
+
+    <TextView
+        android:text="Second Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_weight="0.03"
+        android:textSize="18sp"
+        android:paddingLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_second_name"
+        android:hint="Second Name"
+        android:textSize="22sp"
+        android:paddingLeft="@dimen/fab_margin" />
+
+    <TextView
+        android:text="Surname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:layout_weight="0.03"
+        android:textSize="18sp"
+        android:paddingLeft="@dimen/fab_margin"
+        android:layout_marginTop="@dimen/fab_margin" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/et_sur_name"
+        android:hint="Surname"
+        android:textSize="22sp"
+        android:paddingLeft="@dimen/fab_margin" />
+
+    <Button
+        android:text="Save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_save"
+        android:layout_marginTop="180dp" />
+
+
+</LinearLayout>
